@@ -15,8 +15,10 @@ const SingleDish = ({ service }) => {
                 </div>
                 <p className="text-justify">{description.slice(0, 100)}</p>
                 <div className="text-center">
+                    <Link to="/login">
+                        <button className="btn btn-primary text-center text-white">Vote</button>
+                    </Link>
 
-                    <button className="btn btn-primary text-center text-white">Vote</button>
 
                 </div>
             </div>

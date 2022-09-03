@@ -1,0 +1,11 @@
+.dishes{
+width:"240px";
+box-shadow: 10px 10px 10px 30px gray;
+border:"1px solid red"
+}
+
+.voting{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+}
+
